@@ -4,7 +4,7 @@ Provides common test classes for system tests which depend on Jakarta EE 9.0-com
 
 ## Status
 
-![Build status](https://drone.cloudtrain.aws.msgoat.eu/api/badges/msgoat/cnj-common-test-rest-jakarta/status.svg)
+![Build status](https://drone.cloudtrain.aws.msgoat.eu/api/badges/msgoat/cnj-common-test-jakarta/status.svg)
 
 ## Release information
 
