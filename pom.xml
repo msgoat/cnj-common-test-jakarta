@@ -9,15 +9,15 @@
     <description>Common classes for unit, component or system tests based on Jakarta EE APIs</description>
     <properties>
         <!-- new Maven version management -->
-        <revision>0.1.0</revision>
+        <revision>1.0.0</revision>
         <sha1></sha1>
         <changelist></changelist>
         <!-- common properties -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <jakarta.annotation.version>2.0.0</jakarta.annotation.version>
-        <jakarta.jsonp.version>2.0.1</jakarta.jsonp.version>
+        <jakarta.jsonp.version>2.1.1</jakarta.jsonp.version>
         <!-- common test dependencies -->
         <junit.version>5.8.2</junit.version>
         <restassured.version>4.4.0</restassured.version>
@@ -64,9 +64,9 @@
             <version>${jakarta.jsonp.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.glassfish</groupId>
+            <groupId>org.eclipse.parsson</groupId>
             <artifactId>jakarta.json</artifactId>
-            <version>${jakarta.jsonp.version}</version>
+            <version>1.1.1</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
